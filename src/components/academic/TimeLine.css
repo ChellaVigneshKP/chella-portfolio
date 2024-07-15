@@ -1,0 +1,218 @@
+h3 {
+  padding-top: 0.25em;
+  font-weight:bolder;
+  font-size: larger;
+}
+
+.vertical-timeline-element-content {
+  border-color: rgb(var(--accent) / 0.3) !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  background-color: rgb(var(--background) / 0.2) !important;
+  padding: 2em 3em !important;
+  visibility: visible !important;
+  animation: none !important;
+  --tw-shadow: inset 0 17px 5px -9px rgba(254, 254, 91, 0.05) !important;
+  --tw-shadow-colored: inset 0 17px 5px -9px var(--tw-shadow-color) !important;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+  --tw-backdrop-blur: blur(6px) !important;
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia) !important;
+}
+.vertical-timeline-element-title{
+  color: #FEFE5B;
+}
+.vertical-timeline-element-subtitle{
+  color: #FEFE5B;
+}
+.vertical-timeline-element :hover {
+  --tw-shadow: 5px 5px 20px 0px rgba(254, 254, 91, 0.3) !important;
+  --tw-shadow-colored: 5px 5px 20px 0px var(--tw-shadow-color) !important;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+}
+
+.vertical-timeline-element-content :hover {
+  box-shadow: none !important;
+}
+
+.vertical-timeline-element-icon {
+  visibility: visible !important;
+  animation: none !important;
+  background-color: rgb(var(--background) / 0.2) !important;
+  border-color: rgb(var(--accent) / 0.3) !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  --tw-shadow: inset 0 17px 5px -9px rgba(254, 254, 91, 0.05) !important;
+  --tw-shadow-colored: inset 0 17px 5px -9px var(--tw-shadow-color) !important;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+  --tw-backdrop-blur: blur(6px) !important;
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia) !important;
+
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+  text-align: justify;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white;
+}
+
+.workButton {
+  background-color: rgb(var(--background) / 0.2) !important;
+  border-color: rgb(var(--accent) / 0.3) !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  --tw-shadow: inset 0 17px 5px -9px rgba(254, 254, 91, 0.05) !important;
+  --tw-shadow-colored: inset 0 17px 5px -9px var(--tw-shadow-color) !important;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+  --tw-backdrop-blur: blur(6px) !important;
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia) !important;
+}
+
+.workButton:hover {
+  --tw-shadow: 5px 5px 20px 0px rgba(254, 254, 91, 0.3) !important;
+  --tw-shadow-colored: 5px 5px 20px 0px var(--tw-shadow-color) !important;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+}
+
+.schoolButton {
+  background-color: rgb(var(--background) / 0.2) !important;
+  border-color: rgb(var(--accent) / 0.3) !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  --tw-shadow: inset 0 17px 5px -9px rgba(254, 254, 91, 0.05) !important;
+  --tw-shadow-colored: inset 0 17px 5px -9px var(--tw-shadow-color) !important;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+  --tw-backdrop-blur: blur(6px) !important;
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia) !important;
+}
+
+.schoolButton:hover {
+  --tw-shadow: 5px 5px 20px 0px rgba(254, 254, 91, 0.3) !important;
+  --tw-shadow-colored: 5px 5px 20px 0px var(--tw-shadow-color) !important;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .workButton{
+    font-size: small !important;
+  }
+  .schoolButton{
+    font-size: small !important;
+  }
+  .moreButton{
+    font-size:small !important;
+  }
+  .vertical-timeline-element-content{
+    padding: 0.5em 1.5em !important;
+  }
+}
+
+.vertical-timeline-element-date {
+  display: block !important;
+  float: none !important;
+  color: white;
+}
+
+.moreButton{
+  font-size: smaller;
+  position: relative !important;
+  margin-top: 12px;
+  background-color: rgb(var(--background) / 0.2) !important;
+  border-color: rgb(var(--accent) / 0.3) !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  --tw-shadow: inset 0 17px 5px -9px rgba(254, 254, 91, 0.05) !important;
+  --tw-shadow-colored: inset 0 17px 5px -9px var(--tw-shadow-color) !important;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+  --tw-backdrop-blur: blur(6px) !important;
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia) !important;
+}
+
+.logo{
+  width: 40px; /* Adjust as needed */
+  height: 40px; /* Adjust as needed */
+  margin-right: 10px;
+}
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
+.projects {
+  margin-top: 20px;
+}
+.client-projects {
+  margin-bottom: 30px;
+}
+.client-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.client-logo {
+  width: 30px; 
+  height: 30px;
+  margin-right: 10px;
+}
+.client-name {
+  font-weight: bold;
+  color: #FEFE5B;
+}
+.project {
+  margin-bottom: 10px;
+}
+.project h5 {
+  color: white;
+}
+
+.project p {
+  color: rgb(225, 225, 225);
+}
+hr.client-divider {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin: 20px 0;
+}
+
+hr.more-divider {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin: 20px 0;
+}
+
+.vertical-timeline-element-content .project-duration{
+  margin: 0;
+  font-size:small;
+  color: rgba(225, 225, 225, 0.60);
+}
+
+.vertical-timeline-element-content .project-description{
+  margin: 1px;
+  color: rgba(225, 225, 225, 0.750);
+  text-align: justify;
+}
+
+.vertical-timeline-element-content .client-header{
+  background-color: rgb(var(--background) / 0.2) !important;
+  border-color: rgb(var(--accent) / 0.3) !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  width:fit-content;
+  padding-right: 5px;
+  --tw-shadow: inset 0 17px 5px -9px rgba(254, 254, 91, 0.05) !important;
+  --tw-shadow-colored: inset 0 17px 5px -9px var(--tw-shadow-color) !important;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+  --tw-backdrop-blur: blur(6px) !important;
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia) !important;
+}
+
+.staricon .vertical-timeline-element-content {
+  visibility: hidden !important;
+}
