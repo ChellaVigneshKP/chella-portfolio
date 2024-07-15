@@ -9,7 +9,7 @@ export default function page() {
     <>
       <Image
         src={bg}
-        alt="Chella's Portfolio Contact Page background image"
+        alt="Chella Portfolio Credit Page background image"
         priority
         sizes="100vw"
         className="-z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-50"
