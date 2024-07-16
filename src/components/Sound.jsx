@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { Volume2, VolumeX } from "lucide-react";
 import React, { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
-
 const Modal = ({ onClose, toggle }) => {
   return createPortal(
     <div className="fixed inset-0 bg-background/60 backdrop-blur-sm flex items-center justify-center">
