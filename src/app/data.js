@@ -111,6 +111,7 @@ export const projectsData = [
       description:"Pursuing a comprehensive curriculum that covers statistical analysis, machine learning, data mining, and big data technologies. Gaining hands-on experience with data manipulation, visualization, and predictive modeling using Python. Collaborating on real-world projects to apply data science techniques for solving complex problems.",
       date: "Jan 2024 - Jan 2025 (Expected)",
       icon: "school",
+      cgpa:"7.0"
     },
     {
       key: 3,
