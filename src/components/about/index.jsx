@@ -21,8 +21,8 @@ const AboutDetails = () => {
           </p>
           <p>
             Reach me out at:{" "}
-            <a href="mailto:chellavigneshkp123@gmail.com" className="text-accent">
-              chellavigneshkp123@gmail.com
+            <a href="mailto:info@chellavignesh.com" className="text-accent">
+              info@chellavignesh.com
             </a>
             &nbsp;or from the contact page
           </p>
