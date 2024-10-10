@@ -62,7 +62,7 @@ export const projectsData = [
     },
     {
       label: "Resume",
-      link: "https://drive.google.com/file/d/1MkeXzejF1FdZWU5ghiZMshKEyrfL810S/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1Pl2S6vCvm7awkwJAbBOBSf5CG0_xo-B4/view?usp=sharing",
       icon: "resume",
       newTab: true,
     },
@@ -81,6 +81,17 @@ export const projectsData = [
       more: true,
       clients: [
         {
+          clientName: "Walmart",
+          clientLogo: "background/walmart.png",
+          projects: [
+            {
+              title: "Inventory Management System",
+              duration: "Aug 2024 - till date",
+              description: "Worked on a cloud-based IMS containing technologies like Kafka, Kubernetes etc."
+            }
+          ]
+        },
+        {
           clientName: "Cisco",
           clientLogo: "background/cisco.jpg",
           projects: [
@@ -94,13 +105,8 @@ export const projectsData = [
               duration: "Jan 2024 - Jul 2024",
               description: "Worked on a Java-based project focused on developing a hardware bug tracking tool. Utilized Oracle Database for efficient data management and storage solutions."
             },
-            {
-              title: "Prime Infrastructure",
-              duration: "Aug 2024 - Till",
-              description: "Worked on a Java-based project aimed at monitoring networking devices."
-            },
           ]
-        },
+        }
       ]
     },
     {
